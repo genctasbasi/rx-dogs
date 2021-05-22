@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">rx dogs</string>
+    <string name="operator_just">Just operator</string>
+    <string name="show_another">Show another</string>
+    <string name="operators">Operators</string>
+    <string name="no_dogs_found">No dogs found, sorry!</string>
+
+</resources>
