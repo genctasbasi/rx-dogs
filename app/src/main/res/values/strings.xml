@@ -4,5 +4,7 @@
     <string name="show_another">Show another</string>
     <string name="operators">Operators</string>
     <string name="no_dogs_found">No dogs found, sorry!</string>
+    <string name="single_observer">Single observer</string>
+    <string name="single_observer_description">This fragment demonstrates a SingleObserver, making an API call to get a photo of a dog.</string>
 
 </resources>

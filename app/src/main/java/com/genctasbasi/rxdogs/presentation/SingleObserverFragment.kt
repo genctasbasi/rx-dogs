@@ -9,13 +9,13 @@ import androidx.fragment.app.Fragment
 import com.bumptech.glide.Glide
 import com.genctasbasi.rxdogs.R
 import com.genctasbasi.rxdogs.data.DogApiResponse
-import com.genctasbasi.rxdogs.presentation.viewModels.DetailsViewModel
-import kotlinx.android.synthetic.main.fragment_details.*
+import com.genctasbasi.rxdogs.presentation.viewModels.SingleObserverViewModel
+import kotlinx.android.synthetic.main.fragment_single_observer.*
 import org.koin.android.ext.android.inject
 
-class DetailsFragment : Fragment() {
+class SingleObserverFragment : Fragment() {
 
-    private val viewModel: DetailsViewModel by inject()
+    private val viewModel: SingleObserverViewModel by inject()
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -23,7 +23,7 @@ class DetailsFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         super.onCreateView(inflater, container, savedInstanceState)
-        return inflater.inflate(R.layout.fragment_details, container, false)
+        return inflater.inflate(R.layout.fragment_single_observer, container, false)
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {

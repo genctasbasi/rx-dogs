@@ -9,12 +9,12 @@
         android:name="com.genctasbasi.rxdogs.presentation.MainFragment"
         android:label="MainFragment" >
         <action
-            android:id="@+id/action_mainFragment_to_detailsFragment"
-            app:destination="@id/detailsFragment" />
+            android:id="@+id/action_mainFragment_to_singleObserverFragment"
+            app:destination="@id/singleObserverFragment" />
     </fragment>
 
     <fragment
-        android:id="@+id/detailsFragment"
-        android:name="com.genctasbasi.rxdogs.presentation.DetailsFragment"
+        android:id="@+id/singleObserverFragment"
+        android:name="com.genctasbasi.rxdogs.presentation.SingleObserverFragment"
         android:label="DetailsFragment" />
 </navigation>

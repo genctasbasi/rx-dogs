@@ -30,8 +30,8 @@ class MainFragment : Fragment() {
     }
 
     private fun init() {
-        just_operator_button.setOnClickListener {
-            navigationManager.navigateTo(MainFragmentDirections.actionMainFragmentToDetailsFragment())
+        single_observer_button.setOnClickListener {
+            navigationManager.navigateTo(MainFragmentDirections.actionMainFragmentToSingleObserverFragment())
         }
     }
 }
